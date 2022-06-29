@@ -1,5 +1,5 @@
 # ReposCheck
-A very simple macOS utility app to check if repos within `/Documents/GitHub` have any modified files. The UI is built using SwiftUI.
+A very simple macOS utility app to check if mutliple repos within `/Documents/GitHub` have any modified files. The UI is built using SwiftUI.
 
 # Setup
 1. Add repos you want to track inside `/Documents/GitHub`.
