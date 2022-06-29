@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E0F69DC286C538A007D213E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2ED068CE286C2C4200E3343D /* ReposCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReposCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED068D1286C2C4200E3343D /* ReposCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposCheckApp.swift; sourceTree = "<group>"; };
 		2ED068D3286C2C4200E3343D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		2ED068D0286C2C4200E3343D /* ReposCheck */ = {
 			isa = PBXGroup;
 			children = (
+				2E0F69DC286C538A007D213E /* Info.plist */,
 				2ED068D1286C2C4200E3343D /* ReposCheckApp.swift */,
 				2ED068D3286C2C4200E3343D /* ContentView.swift */,
 				2ED068D5286C2C4300E3343D /* Assets.xcassets */,
@@ -278,6 +280,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReposCheck/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +308,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReposCheck/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
