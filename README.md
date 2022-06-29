@@ -6,8 +6,8 @@ Dark             |  Light
 :-------------------------:|:-------------------------:
 ![](https://github.com/iamazhar/ReposCheck/blob/main/preview-dark.png)  |  ![](https://github.com/iamazhar/ReposCheck/blob/main/preview-light.png)
 
-# Setup
-# Download and install archive
+# Installation
+## Download and install script and app
 1. Download and add the `repos-status.sh` script file to your repos directory.
 2. Run command `chmod 777 git-status` in the directory to make this file executable.
 3. Download the archive for the latest release tag.
