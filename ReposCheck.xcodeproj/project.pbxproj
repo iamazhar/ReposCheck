@@ -11,6 +11,7 @@
 		2ED068D4286C2C4200E3343D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED068D3286C2C4200E3343D /* ContentView.swift */; };
 		2ED068D6286C2C4300E3343D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED068D5286C2C4300E3343D /* Assets.xcassets */; };
 		2ED068D9286C2C4300E3343D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED068D8286C2C4300E3343D /* Preview Assets.xcassets */; };
+		2ED068E2286C35DD00E3343D /* ColorizeSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2ED068E1286C35DD00E3343D /* ColorizeSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED068E2286C35DD00E3343D /* ColorizeSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = ReposCheck;
+			packageProductDependencies = (
+				2ED068E1286C35DD00E3343D /* ColorizeSwift */,
+			);
 			productName = ReposCheck;
 			productReference = 2ED068CE286C2C4200E3343D /* ReposCheck.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = 2ED068C5286C2C4200E3343D;
+			packageReferences = (
+				2ED068E0286C35DD00E3343D /* XCRemoteSwiftPackageReference "ColorizeSwift" */,
+			);
 			productRefGroup = 2ED068CF286C2C4200E3343D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2ED068E0286C35DD00E3343D /* XCRemoteSwiftPackageReference "ColorizeSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mtynior/ColorizeSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2ED068E1286C35DD00E3343D /* ColorizeSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ED068E0286C35DD00E3343D /* XCRemoteSwiftPackageReference "ColorizeSwift" */;
+			productName = ColorizeSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2ED068C6286C2C4200E3343D /* Project object */;
 }
