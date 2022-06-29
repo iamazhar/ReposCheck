@@ -1,4 +1,5 @@
 <img src="https://github.com/iamazhar/ReposCheck/blob/main/icon.png" width="100" height="100">
+
 # ReposCheck
 A very simple macOS menu bar app to check if mutliple repos within `/Documents/GitHub` or a user specified directory path have any modified files. You can also specify your own path for the `repos-status.sh` script.
 The UI is built using SwiftUI.
