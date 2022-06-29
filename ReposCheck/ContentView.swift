@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import ColorizeSwift
 
 final class GitStatusHelper {
   public static func runGitStatusScript() -> String {
